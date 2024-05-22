@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slots Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <div class="credits">
+            Credits: <span id="creditAmount">100</span>
+        </div>
+        <div class="bet">
+            Bet Size: <input type="number" id="betSize" value="10" min="1">
+        </div>
+        <div class="speed-switch">
+            Fast Rolls: <input type="checkbox" id="speedSwitch">
+        </div>
+        <div class="doors">
+            <div class="door">
+                <div class="boxes"></div>
+            </div>
+            <div class="door">
+                <div class="boxes"></div>
+            </div>
+            <div class="door">
+                <div class="boxes"></div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="spinner">Play</button>
+            <button id="reseter">Reset</button>
+        </div>
+        <div class="paytable">
+            <h3>Pay Table (Multipliers)</h3>
+            <ul>
+                <li>3 x 🍭 = 5x bet</li>
+                <li>3 x ❌ = 2x bet</li>
+                <li>3 x ⛄️ = 3x bet</li>
+                <li>3 x 🦄 = 10x bet</li>
+                <li>3 x 🍌 = 1x bet</li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

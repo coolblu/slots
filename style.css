@@ -1,0 +1,91 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1a2b45;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.credits, .bet, .speed-switch {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.bet input, .speed-switch input {
+    font-size: 1rem;
+}
+
+.doors {
+    display: flex;
+}
+
+.door {
+    background: #fafafa;
+    width: 100px;
+    height: 110px;
+    overflow: hidden;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.boxes {
+    transition: transform 1s ease-in-out;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.buttons {
+    margin: 1rem 0;
+}
+
+button {
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin: 0 0.2rem;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background: #007bff;
+    color: #fff;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.paytable {
+    margin-top: 1rem;
+    background: #2a3d5e;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.paytable h3 {
+    margin: 0 0 0.5rem 0;
+}
+
+.paytable ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.paytable li {
+    margin: 0.5rem 0;
+}
